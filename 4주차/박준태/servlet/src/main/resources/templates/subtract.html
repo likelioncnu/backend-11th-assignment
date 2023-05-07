@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>subtract</title>
+</head>
+<body>
+    <form action="/calc/subtract" method="post">
+        <label><input type="text" name="front"/></label>
+        <label><input type="text" name="back"/></label>
+        <button type="submit">전송</button>
+        <button type="button" th:onclick="|location.href='@{/calc/main}'|">메인 메뉴</button>
+    </form>
+</body>
+</html>
